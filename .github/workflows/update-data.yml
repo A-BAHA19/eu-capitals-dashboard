@@ -25,4 +25,3 @@ jobs:
           git add docs/data/rankings.json
           git commit -m "Update rankings [automated]" || echo "Nothing to commit"
           git push
-```
