@@ -26,3 +26,9 @@ J’avais prédit que Rome arriverait première, mais le classement obtenu place
 ## 7. Surveillance des mises à jour
 
 La date de dernière mise à jour affichée sur la page permet de repérer un arrêt de la mise à jour des données. Si elle reste ancienne alors qu’un calcul est prévu chaque lundi, cela peut signaler un problème. J’ajouterais un avertissement visible lorsque les données ont plus de huit jours, ainsi qu’une alerte au responsable en cas d’échec du programme.
+
+## 8. Changement de ville de départ
+
+J’ai modifié scripts/fetch_and_score.py pour calculer les distances et les émissions de CO₂ depuis Le Mans. J’ai également supprimé l’exclusion de Paris : Le Mans n’étant pas dans la liste, les 27 capitales sont désormais des destinations possibles. J’ai adapté docs/index.html pour afficher la nouvelle ville de départ et le nombre de destinations.
+
+Après une nouvelle exécution réussie, Madrid reste première, suivie de Lisbonne puis de Paris. La meilleure destination dépend donc du point de départ, des prévisions météo et des critères choisis : ce n’est pas une propriété absolue d’une ville.
