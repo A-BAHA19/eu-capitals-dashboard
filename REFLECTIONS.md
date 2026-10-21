@@ -18,3 +18,11 @@ L’ajout d’une capitale particulièrement froide et pluvieuse ne changerait p
 ## 5. Ma prédiction avant l’exécution
 
 Je prédis que Rome arrivera en tête, car je m’attends à une météo agréable et à une distance depuis Paris plus faible que celle de certaines destinations plus éloignées. Elle pourrait donc offrir un bon compromis avec une pondération de 50 % pour la météo et de 50 % pour les émissions de CO₂.
+
+## 6. Comparaison entre ma prédiction et le résultat
+
+J’avais prédit que Rome arriverait première, mais le classement obtenu place Madrid en tête, suivie de Lisbonne puis de Rome. Ma prédiction n’est donc pas confirmée, même si Rome figure parmi les trois premières destinations. Avec les données météo récupérées et la pondération 50 % météo / 50 % CO₂, Madrid obtient le meilleur score global.
+
+## 7. Surveillance des mises à jour
+
+La date de dernière mise à jour affichée sur la page permet de repérer un arrêt de la mise à jour des données. Si elle reste ancienne alors qu’un calcul est prévu chaque lundi, cela peut signaler un problème. J’ajouterais un avertissement visible lorsque les données ont plus de huit jours, ainsi qu’une alerte au responsable en cas d’échec du programme.
