@@ -14,3 +14,7 @@ Avant de publier ce tableau de bord pour de vrais voyageurs, je vérifierais le 
 ## 4. Mesure réelle et score relatif
 
 L’ajout d’une capitale particulièrement froide et pluvieuse ne changerait pas les mesures météorologiques des autres villes. Cependant, leurs scores normalisés pourraient changer, car ils sont calculés à partir des valeurs minimales et maximales de la liste. Une mesure décrit une grandeur observée, tandis qu’un KPI est un indicateur construit selon une méthode et un ensemble de comparaison.
+
+## 5. Ma prédiction avant l’exécution
+
+Je prédis que Rome arrivera en tête, car je m’attends à une météo agréable et à une distance depuis Paris plus faible que celle de certaines destinations plus éloignées. Elle pourrait donc offrir un bon compromis avec une pondération de 50 % pour la météo et de 50 % pour les émissions de CO₂.
